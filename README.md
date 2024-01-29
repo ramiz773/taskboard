@@ -1,8 +1,18 @@
-# React + Vite
+Taskboard
+Taskboard is a simple and intuitive to-do application designed to streamline your task management process. With a clean and user-friendly interface, Taskboard allows you to effortlessly organize your tasks into different sections.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+1. Add New Tasks
+Easily add new tasks to the Pending section. Enter task details, and they will instantly appear in the task list.
 
-Currently, two official plugins are available:
+2. Move Tasks to Ongoing
+Once you start working on a task, move it from Pending to Ongoing with a simple drag-and-drop action. This helps you prioritize and focus on active tasks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. Complete and Archive
+When a task is finished, move it to the Completed section for a sense of accomplishment. Archived tasks remain visible, providing a record of your achievements.
+
+4. Intuitive User Interface
+Enjoy a clean and intuitive interface that enhances your task management experience. The design is aimed at simplicity, making Taskboard accessible for users of all levels.
+
+5. Responsive Design
+Taskboard is responsive, ensuring a seamless experience across various devices, including desktops, tablets, and smartphones.
