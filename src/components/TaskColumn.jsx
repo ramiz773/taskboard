@@ -5,7 +5,7 @@ import { AppContext } from "../context/AppContextWrapper";
 
 function TaskColumn({ category }) {
   const { state, dispatch } = useContext(AppContext);
-  const data = state?.tasks.filter((task) => task.category === category);
+  const data = state?.tasks?.filter((task) => task?.category === category);
 
   return (
     <div className="taskColumn">
@@ -14,7 +14,14 @@ function TaskColumn({ category }) {
       </div>
       <div className="taskItems">
         {data?.map((task) => {
-          return <TaskItem task={task} key={task.id} />;
+          return (
+            <TaskItem
+              item={task}
+              key={task.id}
+              dispatch={dispatch}
+              categories={state.categories}
+            />
+          );
         })}
       </div>
     </div>

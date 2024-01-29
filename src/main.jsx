@@ -6,8 +6,8 @@ import AppContextWrapper from "./context/AppContextWrapper.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <AppContextWrapper>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
+    {/* <React.StrictMode> */}
+    <App />
+    {/* </React.StrictMode> */}
   </AppContextWrapper>
 );
